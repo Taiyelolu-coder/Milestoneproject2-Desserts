@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="./script.js" defer></script>
+</head>
+<body>
+    <div class="main">
+
+
+        <h1 id="header">Desserts</h1>
+
+        <div class="productPage">
+            <div class="product">
+                
+                <div class="desserts">
+                    <div class="imgBtn">
+                            <img src="./image-waffle-desktop.jpg" alt="">
+                            <button class="btn btn">Add to Cart</button>
+                            <div class="modaldiv" style="visibility: hidden;">
+                            <button>+</button>
+                            <p></p>
+                            <button>-</button>
+                            </div>
+                    
+                    
+                        <p>Waffle</p>    
+                        <h6>Waffle with Berries</h6>
+                        <h5>$6.50</h5>
+                    </div>
+                     
+                </div>
+                <div class="desserts">
+                    <div class="imgBtn">
+                        <img src="./image-creme-brulee-desktop.jpg" alt="">
+                            <button class="btn btn"> Add to Cart</button>
+                            <div class="modaldiv">
+                            <button>+</button>
+                            <p></p>
+                            <button>-</button>
+                            </div>
+                    
+                    
+                
+                        <p>Creme Brulee</p>
+                        <h6>Vanilla Bean Creme Brulee </h6>
+                        <h5>$7.00</h5>
+                    </div>
+                </div>      
+                <div class="desserts">
+                    <div class="imgBtn">
+                        <img src="./image-macaron-desktop.jpg" alt="">
+                            <button class="btn btn"> Add to Cart</button>
+                            <div class="modaldiv">
+                            <button>+</button>
+                            <p></p>
+                            <button>-</button>
+                            </div>
+                    
+                        <p>Macaron</p>
+                        <h6>Macaron Mix of Five</h6>
+                        <h5>$8.00</h5>
+                    </div>
+                     
+                </div>      
+                
+            
+                <div class="desserts">
+
+                    <div class="imgBtn">
+                        <img src="image-tiramisu-desktop.jpg" alt="">
+                            <button class="btn btn"> Add to Cart</button>
+                            <div class="modaldiv">
+                            <button>+</button>
+                            <p></p>
+                            <button>-</button>
+                            </div>
+                    
+
+                
+                        <p>Tiramisu</p>
+                        <h6>Classic Tiramisu</h6>
+                        <h5>$5.50</h5>
+                    </div>
+
+                </div>
+                  
+                <div class="desserts">
+
+                    <div class="imgBtn">
+                        <img src="./image-baklava-desktop.jpg" alt="">
+                            <button class="btn btn"> Add to Cart</button>
+                            <div class="modaldiv">
+                            <button>+</button>
+                            <p></p>
+                            <button>-</button>
+                            </div>
+                    
+                        <p>Baklava</p>
+                        <h6>Pistachio Baklava</h6>
+                        <h5>$4.00</h5>
+                    </div>
+
+                </div>        
+                <div class="desserts">
+
+                    <div class="imgBtn">
+                        <img src="./image-meringue-desktop.jpg" alt="">
+                            <button class="btn btn"> Add to Cart</button>
+                            <div class="modaldiv">
+                            <button>+</button>
+                            <p></p>
+                            <button>-</button>
+                            </div>
+                 
+                        <p>Pie</p>
+                        <h6>Lemon Meringue Pie</h6>
+                        <h5>$5.00</h5>
+                    </div>
+
+                </div>        
+           
+                <div class="desserts">
+
+                    <div class="imgBtn">
+                        <img src="./image-cake-desktop.jpg" alt="">
+                            <button class="btn btn"> Add to Cart</button>
+                            <div class="modaldiv">
+                            <button>+</button>
+                            <p></p>
+                            <button>-</button>
+                            </div>
+                   
+                        <p>Cake</p>
+                        <h6>Red Velvet Cake</h6>
+                        <h5>$4.50</h5>
+                    </div>
+
+               </div>
+                <div class="desserts">
+
+                    <div class="imgBtn">
+                        <img src="./image-brownie-desktop.jpg" alt="">
+                            <button class="btn btn"> Add to Cart</button>
+                            <div class="modaldiv">
+                            <button>+</button>
+                            <p></p>
+                            <button>-</button>
+                            </div>
+                    
+                        <p>Brownie</p>
+                        <h6>Salted Caramel Brownie</h6>
+                        <h5>$5.50</h5>
+                    </div>
+
+               </div>    
+              <div class="desserts">
+
+                    <div class="imgBtn">
+                        <img src="./image-panna-cotta-desktop.jpg" alt="">
+                        <button class="btn btn"> Add to Cart</button>
+                        <div class="modaldiv">
+                                <button>+</button>
+                                <p></p>
+                                <button>-</button>
+                        </div>
+                    
+                        <p>Panna Cotta</p>
+                        <h6>Vanilla Panna Cotta</h6>
+                        <h5>$6.50</h5>
+                    </div>
+
+               </div> 
+            </div>
+            
+        
+            <div class="Cart">
+                <h1 id="totalInput">Your Cart (<input id="totalQuantity" type="text" value="0">)</h1>
+                <ul id="cart-content">
+                  <li><h6>Waffle with Berries</h6>  <h5>$6.50</h5></li>
+                </ul>
+
+                <h6 id="orderTotal">Order Total : <input id="totalCost" type="text" value="0:00"></h6> 
+                <p id="span">This is a <span>carbon-neutral</span> delivery</p>
+                <button id="order-confirm">Confirm Order</button>
+            </div>
+        </div>
+    
+    </div>
+</body>
+</html>
